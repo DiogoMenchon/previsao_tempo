@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do tempo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-container">
+            <input class="cities" placeholder="Digite o nome da cidade">
+            <button type="submit" onclick="buttonClick()">
+                <img class='img-lupa' src="https://www.svgrepo.com/show/488200/find.svg">
+            </button>
+        </div>
+
+        <div class="caixa">
+            <h2 class="cidade">Tempo em São Carlos</h2>
+            <div class="info">
+                <img src="https://openweathermap.org/img/wn/04n.png" class="img-previsao"><p class="clima">Neblina</p>
+                <p class="temp">31.00°C</p>
+            </div>
+            <p class="umidade">Umidade: 43%</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
